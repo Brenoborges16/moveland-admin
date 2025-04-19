@@ -12,19 +12,14 @@ export default function Home() {
   }
 
   return (
-    <div className="flex h-screen items-center justify-center">
+    <main className="flex flex-col h-screen items-center justify-center bg-white text-black p-8">
+      <h1 className="text-3xl font-bold mb-6">Página inicial do MoveLand 🏃‍♂️🌍</h1>
       <button
         onClick={handleConnectStrava}
         className="bg-orange-500 text-white px-6 py-3 rounded-xl text-lg hover:bg-orange-600"
       >
         Conectar com Strava
       </button>
-    </div>
+    </main>
   )
 }
-export default function BemVindo() {
-  return (
-    <main className="flex flex-col items-center justify-center min-h-screen p-8 bg-white text-black">
-      <h1 className="text-4xl font-bold mb-4">🚀 Bem-vindo ao MoveLand!</h1>
-      <p className="text-lg">Você se conectou com sucesso via Strava. Agora é só curtir o movimento! 🏃‍♂️</p>
-    </main>
