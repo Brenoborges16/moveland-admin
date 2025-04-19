@@ -12,10 +12,10 @@ export default function Home() {
   }
 
   return (
-    <div className="flex min-h-screen items-center justify-center">
+    <div className="flex h-screen items-center justify-center">
       <button
         onClick={handleConnectStrava}
-        className="bg-orange-500 text-white px-6 py-3 rounded-lg hover:bg-orange-600 text-lg font-bold"
+        className="bg-orange-500 text-white px-6 py-3 rounded-xl text-lg hover:bg-orange-600"
       >
         Conectar com Strava
       </button>
