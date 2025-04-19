@@ -22,3 +22,9 @@ export default function Home() {
     </div>
   )
 }
+export default function BemVindo() {
+  return (
+    <main className="flex flex-col items-center justify-center min-h-screen p-8 bg-white text-black">
+      <h1 className="text-4xl font-bold mb-4">🚀 Bem-vindo ao MoveLand!</h1>
+      <p className="text-lg">Você se conectou com sucesso via Strava. Agora é só curtir o movimento! 🏃‍♂️</p>
+    </main>
